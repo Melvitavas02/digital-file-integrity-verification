@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital File Integrity Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <h2>Cyber Security Toolkit</h2>
+</header>
+<main>
+<div class="container">
+        <h1>🔐 Digital File Integrity Verification</h1>
+        <p class="subtitle">
+            Upload a file to generate its SHA-256 digital fingerprint.
+        </p>
+
+        <input type="file" id="fileInput">
+      <div class="btn-group">
+    <button onclick="generateHash()">Generate Hash</button>
+    <button onclick="verifyFile()">Verify Integrity</button>
+</div>
+
+        <div id="result" class="result"></div>
+        <div class="info">
+    <h3>About This Tool</h3>
+    <p>
+        This application demonstrates how digital investigators verify file
+        integrity using SHA-256 cryptographic hashing. Any small modification
+        in a file produces a completely different hash value, helping detect
+        tampering or unauthorized changes.
+    </p>
+</div>
+    </div>
+
+<script src="script.js"></script>
+<footer>
+    <p>Cyber Security Project | Digital File Integrity Verification System</p>
+</footer>
+</main>
+</body>
+</html>
