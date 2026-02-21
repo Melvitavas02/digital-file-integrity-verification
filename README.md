@@ -1,15 +1,12 @@
 # 🔐 Digital File Integrity Verification System
-
 A cybersecurity web application that verifies file integrity using **SHA-256 cryptographic hashing**.
 
 
 # 📌 Project Overview
-
 This project demonstrates how digital investigators verify file authenticity using cryptographic hash values. Any small modification in a file produces a completely different hash, helping detect tampering or unauthorized changes.
 
 
 # 🚀 Features
-
 - Upload any file
 - Generate SHA-256 hash fingerprint
 - Verify file integrity
@@ -20,7 +17,6 @@ This project demonstrates how digital investigators verify file authenticity usi
 
 
 # 🛠 Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript
@@ -29,7 +25,6 @@ This project demonstrates how digital investigators verify file authenticity usi
 
 
 # 🔐 Cybersecurity Concepts
-
 - Cryptographic Hashing (SHA-256)
 - Data Integrity Verification
 - Digital Forensics Workflow
@@ -37,8 +32,7 @@ This project demonstrates how digital investigators verify file authenticity usi
 - Tamper Detection
 
 
-##⚙️ How It Works
-
+#⚙️ How It Works
 1. Upload a file
 2. Generate SHA-256 hash
 3. Hash is stored as reference
@@ -48,7 +42,6 @@ This project demonstrates how digital investigators verify file authenticity usi
 ---
 
 #▶️ How to Run
-
 1. Download or clone repository
 2. Open `index.html` in browser
 3. Upload file and generate hash
@@ -60,12 +53,9 @@ This project demonstrates how digital investigators verify file authenticity usi
 
 
 # 💼 Resume Value
-
 This project demonstrates practical cybersecurity skills including cryptographic hashing, file integrity verification, and digital forensic validation techniques.
 
-
-
-##👩‍💻 Author
+#👩‍💻 Author
 MCA Student | Cybersecurity Enthusiast
 
-MCA Student | Cybersecurity Enthusiast
+
